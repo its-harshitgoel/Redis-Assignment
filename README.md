@@ -28,19 +28,6 @@ Docker installed on your machine.
 Installation Using Docker
 The Dockerfile provided builds the Go binary from source and packages it in a minimal Alpine Linux container.
 
-Steps to run the server:
-Clone the repository:
-
-git clone https://github.com/sachan13harshit/Redis-Assignment.git
-cd Redis-Assignment
-Build the Docker image:
-
-docker build -t redis_cache_server .
-Run the Docker container:
-
-docker run -p 7171:7171 redis_cache_server
-The cache server will now be running on http://localhost:7171.
-
 API Endpoints
 PUT /put:
 Adds an item to the cache.
